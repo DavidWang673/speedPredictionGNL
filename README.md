@@ -1,4 +1,4 @@
-# speedPredictionGNL
-Graph Neural Lasso For Speed  Prediction
-git remote add origin https://github.com/DavidWang673/speedPredictionGNL.git
-git push -u origin master
+# Graph Neural LASSO for Speed Prediction
+
+## Network Structure
+![Gated Diffusive Unit](https://github.com/DavidWang673/speedPredictionGNL/master/figures/GDU.png)
