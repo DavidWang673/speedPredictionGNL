@@ -25,7 +25,7 @@ def train_model(train,val,model,A,hyper_para,time_slag):
 		for step,(x,y) in enumerate(train_loader):
 			y_b,y_t,y_n,y_c = y.shape
 			model_input = x
-			for i in range(n_pred):
+			for i in range(n_pred): #### multi-step
 				model_output = model(model_input,A)
 				if i == 0:
 					loss = (model_output - y[:,i,:,:])**2 #loss_dir[i]
