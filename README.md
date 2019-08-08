@@ -5,7 +5,7 @@
 #### graph squence model, graph attention mechanism<br>
 
 ## Introduction<br>
-GNL model implemented in pytorch<br>
+GNL model for speed prediction implemented in pytorch<br>
 
 ## Network Structure<br>
 ![Gated Diffusive Unit](https://github.com/DavidWang673/speedPredictionGNL/raw/master/figures/GDU.png)<br>
